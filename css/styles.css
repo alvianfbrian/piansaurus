@@ -1,0 +1,101 @@
+@import url('zodiak.css');
+@import url('plus-jakarta-sans.css');
+
+body ,html {
+    background-color: #EEF4D4;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'PlusJakartaSans-Variable';
+    scrollbar-width: thin;
+    scrollbar-color: #E85D75 #EEF4D4;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 93.25vw;
+    margin: 0;
+    padding: 0 3vw;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: fixed;
+}   
+
+.nav-logo {
+    font-family: 'Zodiak-Variable';
+    font-size: 1em;
+    color: #E85D75;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-logo:hover {
+    color: #564D65;
+    transition: 0.3s;
+}
+
+.nav-link li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-link li a {
+    color: #5E8C61;
+    font-size: 0.9em;
+    padding: 0 0.5vw;
+}
+
+.nav-link li a:hover {
+    color: #564D65;
+    transition: 0.3s;
+}
+
+section.first-page {
+    padding: 0 3vw;
+}
+
+h1 {
+    font-family: 'Zodiak-Variable';
+    font-size: 7.5vw;
+    color: #E85D75;
+    text-align: center;
+}
+
+h1.atas {
+    font-weight: 450;
+    margin: 0;
+    padding-top: 14vw;
+    margin-left: -12vw;
+}
+
+h1.bawah {
+    font-size: 10vw;
+    margin: 0;
+    margin-top: -7.25vw;
+    margin-left: 10vw;
+}
+
+p.first-page {
+    text-align: center;
+    margin: 0;
+    margin-top: 12vw;
+}
+
+section.second-page {
+    background-color: #0A210F;
+}
+
+div.second-page {
+    display: flex;
+    color: #EEF4D4;
+    height: 45vw;
+    margin: 0;
+    padding: 0 20vw;
+    padding-top: 7vw;
+    align-items: flex-start;
+}
